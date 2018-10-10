@@ -5,7 +5,7 @@ var json = {
     "details": [
       { 
         "appID": "P4LZFPM2NH.org.reactjs.native.example.deeplinkingmarktwo",
-        "paths": [ "*" ]
+        "paths": [ "/mobile/*" ]
       }
     ]
   }
