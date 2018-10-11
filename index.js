@@ -1,17 +1,7 @@
 var http = require('http');
-var json = {
-  "applinks": {
-    "apps": [],
-    "details": [
-      { 
-        "appID": "P4LZFPM2NH.org.reactjs.native.example.deeplinkingmarktwo",
-        "paths": [ "/mobile/*" ]
-      }
-    ]
-  }
-};
+
 var port = process.env.PORT || 3000;
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'application/json'});
-  res.end(JSON.stringify(json));
+  res.end();
 }).listen(port);
